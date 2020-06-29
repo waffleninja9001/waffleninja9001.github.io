@@ -2258,5 +2258,5 @@ var dumbass = [
 ]
 
 var index = Math.floor(Math.random() * dumbass.length)
-window.location.href = dumbass[0];
+window.location.href = dumbass[index];
 console.log(dumbass[index])
