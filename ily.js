@@ -1,4 +1,5 @@
 var dumbass = [
+  "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "https://photos.google.com/share/AF1QipOYgPCt6RDTFoI2j1XboUMwNzIwUwHrWgQCApSXQubZy9gOb9xsS03C_bFw31SAvQ/photo/AF1QipN1o0Nq93VH1ZhRqpvMLUAY6lXDcuyNJurVZknw?key=cnl5NEo0ay1XSndIaGl1SkNlb21XTWdsVnNhRnRR",
   "https://photos.google.com/share/AF1QipOYgPCt6RDTFoI2j1XboUMwNzIwUwHrWgQCApSXQubZy9gOb9xsS03C_bFw31SAvQ/photo/AF1QipPExBtHfisNSwsvcUxftpZGRjP13dEU1kdntHzZ?key=cnl5NEo0ay1XSndIaGl1SkNlb21XTWdsVnNhRnRR",
   "https://photos.google.com/share/AF1QipOYgPCt6RDTFoI2j1XboUMwNzIwUwHrWgQCApSXQubZy9gOb9xsS03C_bFw31SAvQ/photo/AF1QipNzfc6b5cO4RF2rKiDweP5TZAbbFkgMVhRGsxVT?key=cnl5NEo0ay1XSndIaGl1SkNlb21XTWdsVnNhRnRR",
@@ -2257,5 +2258,5 @@ var dumbass = [
 ]
 
 var index = Math.floor(Math.random() * dumbass.length)
-window.location.href = dumbass[index];
+window.location.href = dumbass[0];
 console.log(dumbass[index])
